@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap');
+.user-info{
+    margin-left: 25%;
+    margin-top: 2.2rem;
+}
+.para_text{
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+color: #A6ABB2;
+;
+}
+.bold-span{
+    font-family: "SpaceGrotesk" , sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: $primary-green;
+}
+.notification_section {
+    display: block;
+    right: 10px;
+    top: 2.2rem;
+    padding: 0rem 0rem;
+    position: absolute;
+    img{
+        width: 40px;
+    }
+    img:first-child{
+        margin: 0rem 0.3rem;
+    }
+}
+.card_section{
+    background: white;
+    border-radius: 10px;
+    margin-top: 4rem;
+    display: flex;
+    position: relative;
+    justify-content: space-between;    height: 176px;
+    border: solid 1px $primary-grey;
+
+    &::before{
+        content: "";
+        height: 2px;
+        width: 90%;
+        background: $primary-grey;
+        top: 4rem;
+        position: absolute;
+        left: 1rem;
+    }
+}
+.funds_sec{
+    background: $primary-ash;
+    padding: 1rem 1rem;
+    width: 17rem;
+    border-radius: 10px;
+        font-size: 13px;
+}
+.total_sec{
+    padding: 1rem;
+}
+.total_text{
+    color: $primary-green;
+    font-size: 13px;
+}
+.total_bold{
+    font-family: "Space Grotesk" , sans-serif;
+    font-size: 36px;
+    margin-top:3rem;
+
+}
+.section{
+    margin-left: -1rem;
+
+}
+.dropbtn {
+    background-color: $primary-ash;
+    color: black;
+    padding: 7px;
+    font-size: 13px;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: $primary-white;
+    min-width: 100px;
+    // box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+    z-index: 1;
+    border-radius: 10px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 3px 2px;
+    text-decoration: none;
+    display: block;
+    border: solid 1px $primary-ash;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: $primary-ash;
+
+
+  }
+  .dropdown_but{
+    right: 18rem;
+    position: absolute;
+    top: 1rem;
+  }
+  .usd_text{
+      color:  #A6ABB2;
+      ;
+  }

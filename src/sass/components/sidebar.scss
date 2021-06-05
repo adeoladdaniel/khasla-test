@@ -1,0 +1,56 @@
+.side-bar{
+overflow-y: auto;
+ width: 280px;
+ background: $shade-white;
+ height: 100vh;
+ position: fixed;
+ top: 0;
+ 
+}
+.logo-sec{
+ margin-top: 2rem;
+ padding: 0rem 0rem 0rem 2rem ;
+
+}
+.main_pages{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 14px;
+
+
+}
+
+.header_text{
+    font-weight: 600;
+    display: block;
+    font-size: 14px;
+    padding: 0rem 0rem 0rem 2rem ;
+
+}
+.header_text_1{
+    font-weight: 600;
+    display: block;
+    font-size: 14px;
+    padding: 2rem 0rem 0rem 2rem ;
+
+}
+
+.dash {
+    background-color: $primary-white;
+    
+}
+.balance{
+    background-color: #F5F5F5;
+}
+.menu_options{
+    span{
+    padding: 1rem 0rem 1rem 2rem;
+    margin: 0.5rem 0rem;
+    display: block;
+    font-size: 13px;
+
+
+
+
+    }
+}

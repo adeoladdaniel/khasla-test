@@ -1,0 +1,50 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+@font-face {
+  font-family: Klashka;
+  /* src: url(./asset/font/GoogleSans-Medium.woff2); */
+  src: url(../../asset/font/FoundersGrotesk-Regular.otf)
+  url(../../asset/font/FoundersGrotesk-Semibold.otf),
+  url(../../asset/font/FoundersGrotesk-Light.otf),
+  url(../../asset/font/SpaceGrotesk-Bold.ttf),
+  url(../../asset/font/FoundersGrotesk-Semibold.otf)
+  ;
+
+
+}
+
+:root {
+  font-size: 16px;
+}
+
+html {
+  body {
+    box-sizing: border-box;
+     font-family: "Klashka", sans-serif;
+  }
+
+  a {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+// root configuraion for screen
+@media screen and (max-width: 768px) {
+  :root {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  :root {
+    font-size: 12px;
+  }
+}
